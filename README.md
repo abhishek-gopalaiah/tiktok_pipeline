@@ -1,4 +1,19 @@
 "# tiktok_pipeline" 
+```
+cd tiktok_ads # tiktok_pipeline directory
+
+python3 -m venv ~/.virtualenvs/atidiv-target-snowflake
+source ~/.virtualenvs/atidiv-target-snowflake/bin/activate
+
+pip install git+https://github.com/atidivhq/atidiv-target-snowflake.git
+
+python3 -m venv ~/.virtualenvs/tap-tiktok
+source ~/.virtualenvs/tap-tiktok/bin/activate
+
+cd tiktok_ads # tiktok_pipeline directory
+poetry install tap-tiktok
+
+```
 
 
 ```

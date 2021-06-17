@@ -1,6 +1,7 @@
 "# tiktok_pipeline" 
 
 
+```
 #!/bin/bash
 
 export SNOWFLAKE_ACCOUNT=hma660xx
@@ -29,3 +30,4 @@ export TIKTOK_ADVERTISER_ID=68865xxxxx4323842
 
 
 python pipeline.py #--start_date 2020-01-01
+```
